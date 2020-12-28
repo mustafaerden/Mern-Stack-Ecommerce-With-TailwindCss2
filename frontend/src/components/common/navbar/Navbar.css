@@ -1,0 +1,88 @@
+.header {
+  height: 60px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: #131921;
+  /* background-color: #d93232; */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 120px;
+  object-fit: contain;
+  margin: 0 10px;
+  margin-top: 5px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  /* min-width: 600px; */
+  align-items: center;
+}
+
+.header__searchInput {
+  height: 38px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 3px 0 0 3px;
+  outline: none;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 38px;
+  background-color: #f3a847;
+  border-radius: 0 3px 3px 0;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.header__optionLineOne {
+  font-size: 12px;
+  /* color: #c3c3c3; */
+}
+
+.header__optionLineTwo {
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.header__optionBasket {
+  position: relative;
+  margin-top: 2px;
+  margin-right: 15px;
+}
+
+.header__basketCount {
+  position: absolute;
+  min-height: 20px;
+  min-width: 20px;
+  border-radius: 50%;
+  font-size: 0.9em;
+  background: #f3a847;
+  color: #000000;
+  text-align: center;
+  line-height: 20px;
+  top: -9px;
+  left: 20px;
+}
